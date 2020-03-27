@@ -1,5 +1,6 @@
 {
     "client_id": "000-000-000",
+    "frequency": 2,
     "instance_name": "Ritmic Demo IoT",
     "log_directory": "/var/log/ritmic",
     "module_id": "0xdca63222e891",
