@@ -1,0 +1,10 @@
+{
+    "client_id": "000-000-000",
+    "instance_name": "Ritmic Demo IoT",
+    "log_directory": "/var/log/ritmic",
+    "module_id": "0xdca63222e891",
+    "modules_enabled": [
+        "BasicMeasurement"
+    ],
+    "public_port": 8700
+}
