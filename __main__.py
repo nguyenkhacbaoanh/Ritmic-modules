@@ -45,6 +45,7 @@ class Main:
         pass
     finally:
         print("SERVICE STOPPED")
+        sense.clear()
         loop.close()
 
 Ritmic = Main()
