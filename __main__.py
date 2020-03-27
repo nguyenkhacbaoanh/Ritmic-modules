@@ -33,7 +33,7 @@ class Main:
   def init(self):
     sense.load_image('./_src/assets/logo_blue.png')
     print("\n\n----------- Starting Rtimic module -----------\n|\n|  Client : " + self.config['client_id']+ "\n|  Module id : " + self.config['module_id'] + "\n|\n----------------------------------------------")
-    print('Modules loaded :')
+    print('Writing ...')
     for module in self.config["modules_enabled"]:
       module = imp.load_source( 'file1', './'+ module + '/__init__.py')
       Module = module.Module(self.config)
