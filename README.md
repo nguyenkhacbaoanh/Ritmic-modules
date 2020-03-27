@@ -1,12 +1,12 @@
 # Ritmic modules
 
 This is the ritmic module main repository. 
-It contain the endpoint an instruction to start automatically a ritmic module into a rapsberry.
+It contains the endpoint an instructions to install automatically a ritmic module into a raspberry.
 
 ## Requirements
 - Python 3
 - Systemctl
--
+- Pip3 dependencies related to differents modules
 
 ## Get started
 Create a `ritmic` user on your machine , log in it, and clone this repository on your device on the `/home/ritmic/` folder.
